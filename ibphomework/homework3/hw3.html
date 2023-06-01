@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Giriş Türleri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="width=device-width, initial-scale=1.0" >
+  <meta name="description"content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Giriş Türleri</h1>
+  
+  <h2>Gizli Giriş Türü</h2>
+  <input type="hidden" name="gizligiriş" hidden value="Gizli değer">
+  
+  <h2>Tel Giriş Türü</h2>
+  <input type="tel" name="telnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Telefon numarası">
+  
+  <h2>E-posta Giriş Türü</h2>
+  <input type="email" name="email" placeholder="E-posta adresi">
+  
+  <h2>Sayı Giriş Türü</h2>
+  <input type="number" name="number" min="1" max="100" step="1" placeholder="1 ile 100 arası bir sayı">
+  
+  <h2>Aralık Giriş Türü</h2>
+  <input type="range" name="range" min="0" max="100" step="5">
+  
+  <h2>Arama Giriş Türü</h2>
+  <input type="search" name="search" placeholder="Arama kelimesi">
+  
+  <h2>Görüntü Giriş Türü</h2>
+  <input type="image" src="image.jpg" alt="Resim Butonu">
+  
+  <h2>Hafta Giriş Türü</h2>
+  <input type="week" name="week" min="2023-W01" max="2023-W52">
+  
+  <h2>URL Giriş Türü</h2>
+  <input type="url" name="website" placeholder="Website adresi">
+  
+  <h2>Tarih ve Saat Giriş Türü</h2>
+  <input type="datetime-local" name="dateTime" min="2023-05-01T00:00" max="2023-0-30T23:59">
+  
+  <h2>Ay Giriş Türü</h2>
+  <input type="month" name="month" min="2023-01" max="2023-12">
+  
+  <h2>Saat Giriş Türü</h2>
+  <input type="time" name="time" min="00:00" max="23:59">
+</body>
